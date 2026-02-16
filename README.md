@@ -1,1 +1,1 @@
-# Prog1_412 programacion2 Michael Dowglas Lenis
+# programacion2 Michael Dowglas Lenis
