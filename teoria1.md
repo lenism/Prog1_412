@@ -6,7 +6,7 @@ Markdown es un lenguaje de marcado ligero creado por Jhon Gruber en 2004.
 Su proposito es permitir escribir texto plano fácil de leer y luego convertirlo en HTML válido para mostrarlo en páginas web.
 
 **### 2. GIT.**
-***
+---
 **1. ¿Qué es un repositorio y como se diferencia de un proyecto normal?.**
 - Un repositorio es un espacio digital donde se guarda y organiza todo el código, archivos y documentación de un proyecto. Funciona como una “base de datos” que además registra cada cambio que se hace, quién lo hizo y cuándo, gracias al sistema de control de versiones.
 
