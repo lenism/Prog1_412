@@ -74,7 +74,9 @@ class Perro extends Animal { void ladrar() { } }
 - protected: accesible desde la misma clase, subclases y mismo paquete.
 
 - default (sin palabra clave): accesible solo dentro del mismo paquete.
+- ---
 **22. Variables de entorno**
+---
 - Son valores definidos en el sistema operativo que afectan la ejecución de programas.
 
   - Ejemplo: JAVA_HOME indica dónde está instalado Java.
