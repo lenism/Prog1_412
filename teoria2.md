@@ -1,6 +1,7 @@
-# 3. Programación.
-
+#  Programación.
+---
 **15. Tipos de datos primitivos en Java:** 
+---
 ```
 
   - Enteros: byte, short, int, long.
@@ -12,7 +13,9 @@
   -Booleanos: boolean
 
 ```
+---
 **16. Estructuras de control de flujo**
+---
 Condicionales:
 
   - if / else → ejecutan bloques según condiciones.
@@ -27,7 +30,9 @@ Bucles:
 
  - do-while → ejecuta al menos una vez y luego evalúa la condición.
 
+---
 **17. Importancia de nombres significativos**
+---
 - Facilitan la lectura y comprensión del código.
 
 - Ayudan a otros programadores (y a ti mismo en el futuro) a entender qué hace cada variable o método.
