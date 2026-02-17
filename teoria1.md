@@ -85,12 +85,14 @@ Contiene:
 # Con: git add archivo.txt pasas ese archivo al área de preparación.
 ```
 - Si omites este paso, los cambios no se guardan en el commit, aunque sí existen en tu directorio de trabajo.
+- ---
 **9. ¿Qué es el archivo .gitignore y cómo influye en el seguimiento de archivos?**
 ---
 - El archivo .gitignore es un archivo de texto que se coloca en la raíz de tu repositorio Git y sirve para indicar qué archivos o carpetas no deben ser rastreados por Git.
 - Es un archivo de texto donde indicas qué archivos o carpetas quieres que Git ignore.
   - Ejemplo: *.log o node_modules/.
 - Así evitas que archivos temporales, binarios o dependencias innecesarias entren al historial del proyecto.
+- ---
 **10. Diferencia entre un “commit amend” (--amend) y un nuevo commit.**
 ---
 - git commit --amend: modifica el último commit (puedes cambiar el mensaje o añadir archivos olvidados) 
@@ -98,11 +100,13 @@ Contiene:
 Usar --amend es útil para corregir errores pequeños sin ensuciar el historial
 ```
 - Nuevo commit: crea un registro adicional en el historial.
+- ---
 **11. ¿Cómo se utiliza git stash y en qué escenarios es útil?.**
 ---
 - git stash guarda temporalmente tus cambios sin hacer commit y limpia tu directorio de trabajo.
 - Luego puedes recuperarlos con git stash pop.
   - Escenario típico: estás trabajando en algo, pero necesitas cambiar de rama sin perder tus avances.
+  - ---
 **12. Mecanismos para deshacer cambios.**
 ---
 - git reset: mueve el puntero de la rama a un commit anterior (puede borrar cambios).
@@ -110,6 +114,7 @@ Usar --amend es útil para corregir errores pequeños sin ensuciar el historial
 - git revert: crea un nuevo commit que deshace los cambios de uno anterior (más seguro en repositorios compartidos).
 
 - git checkout: restaura archivos individuales a su estado anterior.
+- ---
 **13. Configuración de remotos (origin, upstream) y gestión de forks**
 ---
 - origin: nombre por defecto del repositorio remoto principal.
